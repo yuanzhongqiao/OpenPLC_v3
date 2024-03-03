@@ -1,50 +1,61 @@
-# OpenPLC Runtime version 3
-
-[![Build Status](https://travis-ci.org/thiagoralves/OpenPLC_v3.svg?branch=master)](https://travis-ci.org/thiagoralves/OpenPLC_v3)
-[![Build status](https://ci.appveyor.com/api/projects/status/ut3466ixwtyf68qg?svg=true)](https://ci.appveyor.com/project/shrmrf/openplc-v3)
-
-OpenPLC is an open-source [Programmable Logic Controller](https://en.wikipedia.org/wiki/Programmable_logic_controller) that is based on easy to use software. Our focus is to provide a low cost industrial solution for automation and research. OpenPLC has been used in [many research papers](https://scholar.google.com/scholar?as_ylo=2014&q=openplc&hl=en&as_sdt=0,1) as a framework for industrial cyber security research, given that it is the only controller to provide the entire source code.
-The OpenPLC Project consists of two sub-projects:
-1. [Runtime](https://github.com/thiagoralves/OpenPLC_v3)
-2. [Programming editor](https://openplcproject.com/docs/installing-openplc-editor/)
-
-
-## Installation:
-```bash
-git clone https://github.com/thiagoralves/OpenPLC_v3.git
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenPLC 运行时版本 3</font></font></h1><a id="user-content-openplc-runtime-version-3" class="anchor-element" aria-label="永久链接：OpenPLC 运行时版本 3" href="#openplc-runtime-version-3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://travis-ci.org/thiagoralves/OpenPLC_v3" rel="nofollow"><img src="https://camo.githubusercontent.com/5b4e44d677ccb73be49733796c49af6b404438848b81c6b6ddb013dbaa33d46d/68747470733a2f2f7472617669732d63692e6f72672f74686961676f72616c7665732f4f70656e504c435f76332e7376673f6272616e63683d6d6173746572" alt="构建状态" data-canonical-src="https://travis-ci.org/thiagoralves/OpenPLC_v3.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://ci.appveyor.com/project/shrmrf/openplc-v3" rel="nofollow"><img src="https://camo.githubusercontent.com/c9d4c969beef2d71503d8f996b8f4ade2d272574599ac7599821195f930c569c/68747470733a2f2f63692e6170707665796f722e636f6d2f6170692f70726f6a656374732f7374617475732f757433343636697877747966363871673f7376673d74727565" alt="构建状态" data-canonical-src="https://ci.appveyor.com/api/projects/status/ut3466ixwtyf68qg?svg=true" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenPLC 是一种</font><font style="vertical-align: inherit;">基于易于使用的软件的开源</font></font><a href="https://en.wikipedia.org/wiki/Programmable_logic_controller" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可编程逻辑控制器。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的重点是为自动化和研究提供低成本的工业解决方案。</font><font style="vertical-align: inherit;">OpenPLC 已在</font></font><a href="https://scholar.google.com/scholar?as_ylo=2014&amp;q=openplc&amp;hl=en&amp;as_sdt=0,1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许多研究论文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中用作工业网络安全研究的框架，因为它是唯一提供完整源代码的控制器。</font><font style="vertical-align: inherit;">OpenPLC 项目由两个子项目组成：</font></font></p>
+<ol dir="auto">
+<li><a href="https://github.com/thiagoralves/OpenPLC_v3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行</font></font></a></li>
+<li><a href="https://openplcproject.com/docs/installing-openplc-editor/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编程编辑器</font></font></a></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装：</font></font></h2><a id="user-content-installation" class="anchor-element" aria-label="永久链接： 安装：" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/thiagoralves/OpenPLC_v3.git
+<span class="pl-c1">cd</span> OpenPLC_v3
+./install.sh [platform]</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/thiagoralves/OpenPLC_v3.git
 cd OpenPLC_v3
-./install.sh [platform]
-```
-
-Where `[platform]` can be:
-
-`win` - Install OpenPLC on Windows over Cygwin
-
-`linux` - Install OpenPLC on a Debian-based Linux distribution
-
-`docker` - Used by the `Dockerfile` (i.e. doesn't invoke `sudo`)
-
-`rpi` - Install OpenPLC on a Raspberry Pi
-
-`custom` - Skip all specific package installation and tries to install OpenPLC assuming your system already has all dependencies met. This option can be useful if you're trying to install OpenPLC on an unsuported Linux platform or had manually installed all the dependency packages before.
-
-### Building, Installing and Running inside Docker
-When using Ubuntu: make sure [`docker for Ubuntu` is installed](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-
-When using Linux Mint 21: make sure [`docker for Linux Mint 21` is installed](https://computingforgeeks.com/install-docker-docker-compose-on-linux-mint/)
-
-#### Build
-```
-# instead of running install.sh as stated above, run:
+./install.sh [platform]" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>[platform]</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在</font><font style="vertical-align: inherit;">哪里：</font></font></p>
+<p dir="auto"><code>win</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 通过 Cygwin 在 Windows 上安装 OpenPLC</font></font></p>
+<p dir="auto"><code>linux</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 在基于 Debian 的 Linux 发行版上安装 OpenPLC</font></font></p>
+<p dir="auto"><code>docker</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 由</font></font><code>Dockerfile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(即不调用</font></font><code>sudo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)使用</font></font></p>
+<p dir="auto"><code>rpi</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 在 Raspberry Pi 上安装 OpenPLC</font></font></p>
+<p dir="auto"><code>custom</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 跳过所有特定的软件包安装并尝试安装 OpenPLC，假设您的系统已满足所有依赖项。</font><font style="vertical-align: inherit;">如果您尝试在不受支持的 Linux 平台上安装 OpenPLC 或者之前已手动安装了所有依赖包，则此选项可能很有用。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Docker 中构建、安装和运行</font></font></h3><a id="user-content-building-installing-and-running-inside-docker" class="anchor-element" aria-label="永久链接：在 Docker 中构建、安装和运行" href="#building-installing-and-running-inside-docker"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Ubuntu 时：确保</font></font><a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" rel="nofollow"><code>docker for Ubuntu</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已安装</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Linux Mint 21 时：确保</font></font><a href="https://computingforgeeks.com/install-docker-docker-compose-on-linux-mint/" rel="nofollow"><code>docker for Linux Mint 21</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">已安装</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建造</font></font></h4><a id="user-content-build" class="anchor-element" aria-label="永久链接：构建" href="#build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code># instead of running install.sh as stated above, run:
 docker build -t openplc:v3 .
-```
-
-#### RUN
-_Devices can be passed to the `docker` daemon using the `-v` flag (e.g. `-v /dev/ttyACM0:/dev/ttyACM0`)_
-
-```bash
-docker run -it --rm --privileged -p 8080:8080 openplc:v3
-```
-
-### EtherCAT capability
-To build with EtherCAT capability try `./install.sh linux ethercat` for more information see `utils/ethercat_src`
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# instead of running install.sh as stated above, run:
+docker build -t openplc:v3 ." tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑步</font></font></h4><a id="user-content-run" class="anchor-element" aria-label="永久链接：运行" href="#run"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><em><font style="vertical-align: inherit;"></font><code>docker</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用标志</font><font style="vertical-align: inherit;">将设备传递给守护程序</font></font><code>-v</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（例如</font></font><code>-v /dev/ttyACM0:/dev/ttyACM0</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></em></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker run -it --rm --privileged -p 8080:8080 openplc:v3</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker run -it --rm --privileged -p 8080:8080 openplc:v3" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EtherCAT 功能</font></font></h3><a id="user-content-ethercat-capability" class="anchor-element" aria-label="永久链接：EtherCAT 功能" href="#ethercat-capability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用 EtherCAT 功能进行构建，请尝试</font></font><code>./install.sh linux ethercat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息，请参阅</font></font><code>utils/ethercat_src</code></p>
+</article></div>
